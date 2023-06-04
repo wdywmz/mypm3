@@ -1,0 +1,33 @@
+[=] Using UART port COM5
+[=] Communicating with PM3 over USB-CDC
+[=] Creating initial preferences file
+[=] Saving preferences...
+[+] saved to json file E:\Applications\ProxSpace\Proxmark3\git\RDV4\client\/.proxmark3/preferences.json
+  [ Proxmark3 RFID instrument ]
+
+    MCU....... AT91SAM7S512 Rev A
+    Memory.... 512 KB ( 60% used )
+
+    Client.... HuaZi/master/v4.16191-353-g9579f2193 2023-05-23 18:37:08
+    Bootrom... Iceman/master/v4.16191-426-g97eb0238b 2023-06-04 00:22:05 
+    OS........ Iceman/master/v4.16191-426-g97eb0238b 2023-06-04 00:22:13 
+    Target.... PM3 GENERIC
+
+
+[!]  --> ARM firmware does not match the source at the time the client was compiled
+[!]  --> Make sure to flash a correct and up-to-date version
+
+[!!] No history will be recorded
+[usb|script] pm3 --> (null)
+[usb|script] pm3 --> (null)
+
+[+]  UID: C1 13 FE D3 
+[+] ATQA: 00 04
+[+]  SAK: 08 [2]
+[+] Possible types:
+[+]    MIFARE Classic 1K
+[=] proprietary non iso14443-4 card found, RATS not supported
+[+] Prng detection: weak
+[#] Auth error
+[?] Hint: try `hf mf` commands
+
